@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    list-style: 1.5;
+    background-color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    width: 220px;
+}
+
+.tümsayfa {
+    width: auto;
+    height: 700px;
+    background-color: white;
+}
+
+
+
+
+/* navbar */
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: auto;
+    height: 100px;
+
+}
+
+#logo-box {
+    float: left;
+    padding-bottom: 0.5;
+    height: 100px;
+    width: 100px;
+}
+
+#logo-box .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+#nav-links {
+    float: right;
+}
+
+ul#yatay-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#yatay-menu li {
+    display: inline-block;
+    padding: 0 10px;
+    border-bottom: 2px solid #ffffff;
+    margin: auto -2px;
+}
+
+ul#yatay-menu li a {
+    color: #001a1c;
+    display: inline-block;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    height: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0 10px;
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    ;
+    border-radius: 3px;
+    border: 2px solid rgb(248, 157, 245);
+}
+
+ul#yatay-menu li a:hover {
+    color: #ffffff;
+    background-color: #fb81ff;
+}
+
+.baslık1 {
+    margin-left: 185px;
+    font-size: 55px;
+    background-color: #fff;
+    background: linear-gradient(to bottom right, #ff4cfc, #0faef3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+    margin-left: 185px;
+    font-size: 15px;
+}
+
+.url1 {
+    margin-left: 185px;
+    width: 470px;
+    height: 65px;
+    border: 3px solid rgb(255, 203, 212);
+    border-radius: 10px;
+
+}
+
+.kısaltbtn {
+  
+    background-color: (to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.kısaltbutonu {
+    color: white;
+    width: 100px;
+    height: 65px;
+    border: 3px solid rgb(255, 203, 212);
+    border-radius: 10px;
+    background: (to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.resim1 {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.anayazı {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 15;
+    display: block;
+    color: #7d7171;
+}
+
+.baslık2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.anadiv {
+    width: auto;
+    height: 450px;
+    background-color: #ffffff;
+}
+
+.kutu1 {
+    margin-left: 150px;
+    width: 250px;
+    height: 400px;
+    background-color: blue;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    border: none solid blue;
+    border-radius: 10px;
+    float: left;
+    background: linear-gradient(to left, rgb(144, 205, 255), rgb(0, 100, 183));
+
+}
+
+.kutu2 {
+    margin-left: 150px;
+    width: 250px;
+    height: 400px;
+    background-color: blue;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    border: none solid blue;
+    border-radius: 10px;
+    float: left;
+    background: linear-gradient(to left, rgb(255, 104, 237), rgb(108, 0, 100));
+}
+
+.kutu3 {
+    margin-left: 150px;
+    width: 250px;
+    height: 400px;
+    background-color: blue;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    border: none solid blue;
+    border-radius: 10px;
+    float: left;
+    background: linear-gradient(to left, rgb(255, 180, 123), rgb(230, 92, 0));
+}
+
+.paragraf {
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.resim2 {
+
+    float: left;
+    margin-left: 50px;
+}
+
+.anadiv2p {
+    width: 350px;
+    height: 200px;
+    float: right;
+    margin-right: 300px;
+   
+    
+}
+
+.p4 {
+   
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 100px;
+    letter-spacing: 0, 5px;
+    word-spacing: 2px
+
+}
+
+.ikon {
+    width: auto;
+    height: 45px;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.resim3 {
+ 
+    float: right;
+    margin-left: 30px;
+}
+.anadiv3{
+    height: auto;
+    width: auto;
+    
+}
+.anadiv3p {
+    width: 350px;
+    height: 100px;
+    float: right;
+    margin-right: 300px;
+}
+.anadiv2{
+    width: auto;
+    height: 500px;
+    
+}
+.anasayfa{
+    width: auto;
+    height: 200px;
+}
+.anadiv4{
+    width: auto;
+    height: 500px;
+    float: right;
+    margin-right: 300px;
+}
+.qrk{
+
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.resimqr{
+    width: 350px;
+    height: 250px;
+    margin-left: 10px;
+}
+.qrkutu{
+    float: right;
+}
